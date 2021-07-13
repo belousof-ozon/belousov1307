@@ -1,11 +1,11 @@
 # Считаем кредит
 name1=input("Введите имя первого человека: ")
 name2=input("Введите имя вторгого человека: ")
-name3=input("Введите третьего первого человека: ")
+
 
 salary1=input("ЗП первого человека: ")
 salary2=input("ЗП второго человека: ")
-salary3=input("ЗП третьего человека: ")
+
 
 credit1=input("Введите сумму кредита: ")
 period=input("Введите срок кредита в месяцах: ")
@@ -16,4 +16,3 @@ print("Ежемесячный платеж составит -" , pay_per_month, 
 
 print(name1, "сможет потратить", int(salary1) - pay_per_month)
 print(name2, "сможет потратить", int(salary2) - pay_per_month)
-print(name3, "сможет потратить", int(salary3) - pay_per_month)
